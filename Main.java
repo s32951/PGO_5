@@ -6,8 +6,15 @@ public class Main {
         Dog dog = new Dog();
 
         lion.makeNoise();
+        lion.roam();
+
         cat.makeNoise();
+        cat.roam();
+
         wolf.makeNoise();
+        wolf.roam();
+
         dog.makeNoise();
+        dog.roam();
     }
 }
