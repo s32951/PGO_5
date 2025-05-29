@@ -7,4 +7,3 @@ public class Vehicle {
         System.out.println("Pojazd zatrzymany");
     }
 }
-

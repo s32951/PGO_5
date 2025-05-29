@@ -8,4 +8,12 @@ public class Car extends Vehicle {
     public int getNumberOfSeats() {
         return numberOfSeats;
     }
+
+    public void start() {
+        System.out.println("Samochód uruchomiony");
+    }
+
+    public void stop() {
+        System.out.println("Samochód zatrzymany");
+    }
 }
